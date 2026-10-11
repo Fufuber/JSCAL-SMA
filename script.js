@@ -215,13 +215,89 @@ else {
 // && bu işaretle de iki koşuluda aynı anda true aldığımızda çalışması içinde ayarlayabilirdik üsteki gibi de bir yapı oluşturabiliriz.
 
 
+// // 1- Çalışma if else 
+
+//     // bir sayının 10 ile 50 arasında olup olmadığını kontrol ederim
+
+//     let sayi = 50;
+
+//     // if(sayi<50){
+//     //     if(sayi>10) {
+//     //         console.log("Sayı 10 ile 50 arasındadır")
+//     //     }
+//     //         else {
+//     //     console.log("Sayı 10 ile 50 arasında değildir")
+//     // }
+//     // }
+//     // else {
+//     //     console.log("Sayı 10 ile 50 arasında değiltir")
+//     // }
 
 
+//     if(sayi>=10 && sayi<=50) {
+//         console.log("Sayı 10 ile 50 arasındadır")
+// //     } else {
+// //         console.log("sayı 10 ile 50 arasında değildir")
+// //     }
 
+// //2. çalışma
 
+// // bir sayının pozitif tek sayı olup olmadığı  kontrol etsin
 
+// let sayi = 3;
 
+// if(sayi %2 === 1 && sayi>0){
+//     console.log("Bu bir pozitif tek sayıdır")
+// } else {
+//     console.log("sayı pozitif ve tek bir sayı değildir.")
+// }
 
+// // 3 . x y z sayılarının büyüklük sıralamasını yapınız (else if kullanarak else if kullanımını araştırıp uygulayın)
+
+// let x,y,z;
+// x = 60;
+// y = 60;
+// z = 60;
+
+// if (x>y &&  x>z) {
+//     console.log("x en büyük sayıdır")
+
+// } else if (y>z && y>x) {
+//     console.log("y en büyük sayıdır")
+// } else if (z>y && z>x) {
+//     console.log("z en büyük sayıdır.")
+// } else if (z === y && y === x) {
+//     console.log("sayılar birbirinw eşittir.")
+// } else {
+//     console.log("her hangi bir sayı birbirine eşittir.")
+// }
+
+// örnek durum çalisma
+
+// 2 vize ve 1 final notuna göre hesaplanan ortalama için
+
+// // görev1 ortalama 50 üstündeyse geçti değilse kaldı yazsın
+// // görev2 geçmek için ortalama 50 bile olsa final notu en az 50 olmalıdır.
+// // görev3 finalden 70 alındığında ortalama 50 in altındaysa bile geçsin
+
+// let vize1 = 50;
+// let vize2 = 60;
+// let final = 70;
+
+// let ortalama = (vize1 * 0.20) + (vize2 * 0.20) + (final * 0.60);
+
+// if (ortalama >= 50 && final === 70) {
+//     console.log("Final 70, geçtiniz");
+
+// } else if (ortalama >= 50 && final >= 50) {
+//     console.log("Geçtiniz");
+
+// } else if (ortalama >= 50 && final < 50) {
+//     console.log("Final barajına takıldınız");
+
+// } else {
+//     console.log("Ortalamadan kaldınız");
+// }
 
 
 
